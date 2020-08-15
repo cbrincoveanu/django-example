@@ -1,6 +1,6 @@
 # Django Project
 
-Django prototype with users.
+Django example with users, some data models, registration and login.
 
 ## Getting Started
 
@@ -16,7 +16,7 @@ conda activate djangoprojectenv
 
 After checking out the code from git, there won't be a database. In order for the web app to function, you will have to apply migrations first.
 ```bash
-# optional; if models changed: python manage.py makemigrations ida_core
+# optional; if models changed: python manage.py makemigrations app
 python manage.py migrate
 python manage.py createsuperuser # Admin user
 ```
